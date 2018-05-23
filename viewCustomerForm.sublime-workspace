@@ -1,0 +1,365 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"camp",
+				"campaignNo"
+			],
+			[
+				"is",
+				"isCurrent"
+			],
+			[
+				"campaign",
+				"campaignID"
+			],
+			[
+				"cam",
+				"campaign"
+			],
+			[
+				"star",
+				"storage"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"campai",
+				"campaignNo"
+			],
+			[
+				"re",
+				"reset"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"custT",
+				"custTable"
+			],
+			[
+				"selec",
+				"selectedCustomer"
+			],
+			[
+				"customer",
+				"customerID"
+			],
+			[
+				"get",
+				"getCustomerFromForm"
+			],
+			[
+				"id",
+				"idCustomer"
+			],
+			[
+				"l",
+				"legend\tTag"
+			],
+			[
+				"sha",
+				"box-shadow"
+			],
+			[
+				"date",
+				"dateString"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"asy",
+				"asynchronously"
+			],
+			[
+				"asyn",
+				"asynchronous"
+			],
+			[
+				"Asyhc",
+				"asynchronous"
+			],
+			[
+				"collection",
+				"collection"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/chris/webProjects/JeniAvon/js/addOrder.js",
+		"/home/chris/webProjects/JeniAvon/addCustomerForm.html",
+		"/home/chris/webProjects/JeniAvon/addOrderForm.html",
+		"/home/chris/webProjects/JeniAvon/css/customerForm.css",
+		"/home/chris/webProjects/JeniAvon/js/addCustomer.js",
+		"/home/chris/webProjects/JeniAvon/css/navbar.css",
+		"/home/chris/webProjects/yo_testapp/Gruntfile.js",
+		"/home/chris/webProjects/yo_testapp/package.json",
+		"/home/chris/.profile",
+		"/home/chris/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
+		"/home/chris/webProjects/JeniAvon/updateCustomer.php",
+		"/home/chris/webProjects/JeniAvon/addCustomer.php",
+		"/home/chris/webProjects/JeniAvon/js/main.js",
+		"/home/chris/webProjects/JeniAvon/js/getAllCustomers.js",
+		"/home/chris/webProjects/JeniAvon/test.php",
+		"/home/chris/webProjects/JeniAvon/connTestAddCustomer.php",
+		"/home/chris/webProjects/JeniAvon/custForm.html",
+		"/home/chris/.cache/.fr-L4kMuw/README.md",
+		"/home/chris/webProjects/JeniAvon/connTestReturnResult.php",
+		"/home/chris/webProjects/JeniAvon/index.html",
+		"/home/chris/Dropbox/Avon/Database stuff/VPC Instance Details.txt",
+		"/home/chris/Dropbox/Avon/Database stuff/jeni-avon.txt",
+		"/home/chris/aws-java-sdk-1.11.31/samples/AmazonS3/README.md",
+		"/home/chris/aws-java-sdk-1.11.31/samples/AmazonS3/S3Sample.java",
+		"/home/chris/webProjects/phpTest/.htaccess",
+		"/home/chris/webProjects/phpTest/connTestReturnResult.php",
+		"/home/chris/Downloads/mysql-connector-java-5.1.39/README.txt",
+		"/home/chris/NetBeansProjects/AmazonExperiments/build.xml",
+		"/etc/hosts",
+		"/etc/apache2/sites-available/phpTest.conf",
+		"/home/chris/connTest.php",
+		"/home/chris/.ssh/known_hosts",
+		"/home/chris/.aws/credentials",
+		"/etc/environment",
+		"/etc/profile",
+		"/home/chris/aws-java-sdk-1.11.31/samples/AmazonDynamoDB/README.md",
+		"/home/chris/aws-java-sdk-1.11.31/samples/AmazonS3/credentials",
+		"/home/chris/aws-java-sdk-1.11.31/samples/AmazonS3/sample.properties",
+		"/home/chris/Documents/React/react-15.3.1/examples/basic-commonjs/README.md",
+		"/home/chris/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/chris/Documents/React/react-15.3.1/helloworld.html",
+		"/home/chris/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/chris/Documents/Clojure-Projects/cheshire-cat/src/cheshire_cat/core/handler.clj",
+		"/home/chris/Documents/Clojure-Projects/cheshire-cat/src-cljs/core.cljs",
+		"/home/chris/Documents/Clojure-Projects/cheshire-cat/project.clj",
+		"/home/chris/Documents/Clojure-Projects/cheshire-cat/resources/public/cat.html",
+		"/home/chris/.cache/.fr-oPNr7Z/react-15.3.1/README.md",
+		"/home/chris/Documents/Clojure Stuff.txt",
+		"/home/chris/Documents/Clojure snchronous and asynchronous control.txt",
+		"/home/chris/clojure-getting-started/src/clojure_getting_started/web.clj",
+		"/home/chris/Documents/EMACS Key Bindings.txt",
+		"/home/chris/Documents/Clojure-Projects/code/cljapplied/src/ch1/apollo.clj",
+		"/home/chris/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/chris/.emacs.d/customizations/editing.el",
+		"/home/chris/.emacs.d/init.el",
+		"/home/chris/Documents/Clojure-Projects/code/cljapplied/src/preface.clj",
+		"/home/chris/Documents/Clojure-Projects/code/cards/src/cards/cards.clj",
+		"/home/chris/Downloads/VA - Now Thats What I Call Music! 94 (2016) [MP3~320Kbps]~[Hunter] [FRG]/My Uploads/Hunter.txt",
+		"/home/chris/Documents/serpent-talk/.gitignore",
+		"/home/chris/Documents/serpent-talk/target/classes/META-INF/maven/serpent-talk/serpent-talk/pom.properties",
+		"/home/chris/Documents/serpent-talk/README.md",
+		"/home/chris/Documents/serpent-talk/project.clj",
+		"/home/chris/Documents/Haskell/baby.hs",
+		"/home/chris/Testing",
+		"/home/chris/Documents/clojure-noob/src/clojure_noob/core.clj",
+		"/home/chris/clojure-getting-started/project.clj",
+		"/home/chris/.lein/profiles.clj",
+		"/home/chris/jEdit/5.3.0/macros/Emacs/README.md",
+		"/home/chris/projfiles.clj",
+		"/home/chris/bin/lein.txt",
+		"/media/floppy0/CJN_UTIL/UTILS.C",
+		"/media/floppy0/Map_move.c",
+		"/media/floppy0/CLASS.C",
+		"/media/floppy0/ADDSTUD.C",
+		"/media/floppy0/MENU.C",
+		"/home/chris/Documents/fibonacci.py",
+		"/media/floppy0/AUTOEXEC.BAT",
+		"/media/floppy0/TEST2.POV"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"regDate",
+			"forename",
+			"required",
+			"\"",
+			"[\"",
+			"[",
+			"$",
+			"surname",
+			",",
+			"$",
+			"user-form",
+			"datepicker",
+			"</input>",
+			"xy",
+			"x",
+			"<",
+			"    <",
+			"p>",
+			"p"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"btnAddOrder",
+			"\n            ",
+			"Testing"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "viewCustomerForm.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

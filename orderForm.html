@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Avon</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="./css/jquery-ui.css">
+  <link rel="stylesheet" href="./css/customerForm.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  <!-- <script src="js/jquery.validate.js"></script> -->
+  <script src="./js/addOrder.js"></script>
+  <!-- <script src="./js/getAllCustomers.js"></script> -->
+
+  <script>
+  $( function() {
+    $( "#regDate" ).datepicker();
+  } );
+  </script>
+
+
+</head>
+<body class="pageBody">
+<header class="navbar-inverse" role="banner"> <!-- Bootstrap navbar -->
+    <div class="container">
+      <nav role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+  </header>
+
+  <div id="heading">
+    <h1>Order From</h1>
+    <p>Customer</p>
+  </div>
+  
+
+  <div class="panel panel-default" id="itemDetails">
+    <div class="panel-body">
+      <form class="custForm" action = "javascript:0">
+        <fieldset>
+          <legend>Customer:</legend>
+          <label for "custID">ID: </label>
+          <input type="text" id="custID" disabled /></input></br>
+          <label for="surname">Surname: </label>
+          <input type="text" id="surname" disabled="" /></input></br>
+          <label for="forename">Forename: </label>
+          <input type="text" id="forename" disabled="" /></input></br>
+          <label for="house">House number/name:</label>
+          <input type="text" id="house" disabled /></input></br>
+          <label for="addr1">Address 1:</label>
+          <input type="text" id="addr1" size="30" disabled /></input></br>
+          <label for="addr2">Address 2:</label>
+          <input type="text" id="addr2" disabled /></input></br>
+          <label for="dropCode">Drop Code:</label>
+          <input type="number" id="dropCode" size="2" disabled /></input></br>
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" disabled /></input></br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" disabled /></input></br>
+          <label for="regDate">Registered date:</label>
+          <input type="text" id="regDate" disabled="" /></input></br>
+          <label for="isRep">Is a rep?</label>
+          <input type="checkbox" id="isRep" disabled /></input></br>
+          <label for="notes">Notes:</label>
+          <input type="textarea" id="notes" rows="4" cols="60" disabled /></input></br>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="reset" class="btn btn-default" id="btnReset">Reset</button>
+            <button type="button" class="btn btn-default" id="btnAddCustomer" >Add Customer</button>
+            <button type="button" class="btn btn-default" id="btnUpdateCustomer" disabled >Update Customer</button>
+            <button type="button" class="btn btn-default" id="btnDeleteCustomer" disabled >Delete Customer</button>
+            <button type="button" class="btn btn-default" id="btnAddOrder" disabled >Add Order</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+  <div class="panel panel-default" id="itemDetails">
+    <div class="panel-body">
+      <form class="itemForm" action = "javascript:0">
+        <fieldset>
+          <legend>Order item details:</legend>
+          <label for "idOrderLine">Order</label>
+          <input type="text" id="idOrderLine" disabled /></input></br>
+
+          <label for="surname">Product Code:</label>
+          <input type="text" id="campaign"/></input></br>
+          <label for="forename">Forename: </label>
+          <input type="text" id="forename" disabled="" /></input></br>
+          <label for="house">House number/name:</label>
+          <input type="text" id="house" disabled /></input></br>
+          <label for="addr1">Address 1:</label>
+          <input type="text" id="addr1" size="30" disabled /></input></br>
+          <label for="addr2">Address 2:</label>
+          <input type="text" id="addr2" disabled /></input></br>
+          <label for="dropCode">Drop Code:</label>
+          <input type="number" id="dropCode" size="2" disabled /></input></br>
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" disabled /></input></br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" disabled /></input></br>
+          <label for="regDate">Registered date:</label>
+          <input type="text" id="regDate" disabled="" /></input></br>
+          <label for="isRep">Is a rep?</label>
+          <input type="checkbox" id="isRep" disabled /></input></br>
+          <label for="notes">Notes:</label>
+          <input type="textarea" id="notes" rows="4" cols="60" disabled /></input></br>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="reset" class="btn btn-default" id="btnItemReset">Reset</button>
+            <button type="button" class="btn btn-default" id="btnAddItem" >Add Item</button>
+
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+  <div class="panel panel-default" id="itemDetails">
+    <div class="panel-body">
+      <h2>Item Details</h2>
+      <h3 >Order lines ( <input type="text" id="orderCount" disabled /> )</input></h3>
+
+      <div id="ordListTableParent">
+        <table id="ordListAllTable">
+          <thead>
+            <tr>
+              <th>ID</th><th>Surname</th><th>Forename</th><th>House</th><th>Addr1</th><th>Addr2</th><th>Drop</th>
+              <th>Phone</th><th>Email</th><th>Registered</th><th>Rep?</th><th>Notes</th>
+            </tr>
+          </thead>
+          <tbody id="ordTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+.pageBody { font-family: Verdana, Geneva, sans-serif; }
+
+.campaignForm  { 
+  padding: 4px; 
+  margin: 1px; 
+  background: #fff; 
+  border-bottom: 1px solid black;
+  /*float: left;*/
+}
+
+label { 
+  display:inline-block; 
+  width:170px; 
+  margin-left:5px; 
+}
+
+input { 
+  display:inline-block; 
+  margin: 
+  4px; 
+}
+
+.form {  
+  padding: 4px; 
+  margin: 1px; 
+  background: #ddd; 
+  float: left;
+}
+
+#heading {
+  background-color: #cce6ff;
+  /*border-top: 1px solid black;*/
+  border-bottom: 1px solid black;
+ }
+
+#campListTableParent {
+  border-top: 1px solid black;
+  height: 300px;
+  overflow: scroll;
+
+}
+
+#campTableHeadings th {
+  padding-right:1em;
+}
+
+.rowHover {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.rowHover:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+#campTableBody tr:hover {
+  background: #ccff99;
+}
+
+#campTableBody {
+  border: 1px solid black;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  white-space: nowrap;
+}
+
+#campTableBody td {
+  padding-right: 1em;
+}
+
+#campaignCount {
+  width: 40px;
+  text-align: right;
+  border: none;
+  background-color: transparent;
+}

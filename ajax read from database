@@ -1,0 +1,21 @@
+
+
+  $.ajax({
+    url : "connTestReturnResult.php", //Target URL for JSON file
+    contentType: 'application/json; charset=utf-8',
+    type: 'GET',
+    dataType: 'json',
+    success : function(customers){
+      console.log(customers);
+
+      // $.each(customers, function(index, customer) {
+      //   $custTable.append('<tr><td>' + customer.idCustomer + '</td>' + '<td>' +
+      //     customer.forename + '</td>' + '<td>' + customer.surname + '</td>' +
+      //     '<td>' + customer.email + '</td></tr>');
+      // });
+    },
+    error : function(xhr, status){
+      alert('Error loading customers:');
+      console.log(status);
+    }
+  });

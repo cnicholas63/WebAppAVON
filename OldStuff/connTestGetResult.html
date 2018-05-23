@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Avon</title>
+	<link rel="stylesheet" href="./css/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+	<script src="./js/main.js"></script>
+	<script>
+	$( function() {
+		$( "#regDate" ).datepicker();
+	} );
+	</script>
+</head>
+<body>
+
+	<h1>Will this connect to the database?</h1>
+
+	<h2>Customer</h2>
+
+	<h4>Add a Customer</h4>
+	<table id="custTable">
+		<tr><td>Surname:</td><td><input type="text" id="surname"></td></tr>
+		<tr><td>Forname:</td><td><input type="text" id="forename"></td></tr>
+		<tr><td>House:</td><td><input type="text" id="house"></td></tr>
+		<tr><td>Addr 1:</td><td><input type="text" id="addr1"></td></tr>
+		<tr><td>Addr 2:</td><td><input type="text" id="addr2"></td></tr>
+		<tr><td>Drop Code:</td><td><input type="text" id="dropCode"></td></tr>
+		<tr><td>Phone:</td><td><input type="text" id="phone"></td></tr>
+		<tr><td>Email:</td><td><input type="text" id="email"></td></tr>
+		<tr><td>Registered Date:</td><td><input type="text" id="regDate"></td></tr>
+		<tr><td>Notes:</td><td><input type="text" id="notes"></td></tr>
+	</table>
+
+	<button id="btnAddCustomer">Add Customer</button>
+
+</body>
+</html>
