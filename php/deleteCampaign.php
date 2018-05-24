@@ -18,7 +18,7 @@
 	// Compile SQL containing customer details
 	$sql = "DELETE FROM Campaigns WHERE idCampaign = $idCampaign;";
 
-	$result = mysqli_query($conn, $sql); // Add customer
+	$result = mysqli_query($conn, $sql);// Run query deleting campaign
 	
 	if(!$result) {
 		echo 'Error: ' . mysqli_error($conn);
